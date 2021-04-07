@@ -1,0 +1,63 @@
+h1{
+    color:#00ffff;
+    border: solid;
+    padding: 50px
+}
+
+.TopThing{
+    border: solid;
+    background-color:#fff0f5;
+    display:flex; 
+    justify-content:space-between
+}
+
+h2,p{
+    text-align:center
+}
+
+.imagething{
+    padding: 50px;
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+}
+
+a:link{
+    color:olivedrab
+}
+
+a:visited{
+    color:darkslateblue
+}
+
+.child a{
+    margin-left:37px
+}
+
+.child {
+    margin-right:20px
+}
+
+.game{
+    position:relative
+}
+
+.game p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0
+}
+
+.game:hover p{
+    opacity:1
+}
+
+.child{
+    opacity:0
+}
+
+.child:hover{
+    opacity:1
+}
